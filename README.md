@@ -23,7 +23,6 @@ An ESP32-based IoT system for monitoring soil nutrients and environmental condit
 - [Blynk IoT Integration](#-blynk-iot-integration)
 - [Soil Health Score](#-soil-health-score)
 - [Installation and Setup](#-installation-and-setup)
-- [Repository Structure](#-repository-structure)
 - [Testing and Results](#-testing-and-results)
 - [Applications](#-applications)
 - [Limitations](#-limitations)
@@ -279,21 +278,6 @@ The final score is the sum of the points awarded for the four conditions.
 | Moisture percentage is inaccurate | Recalibrate wet and dry ADC values for the actual sensor and soil conditions |
 | Blynk receives no data | Check Wi-Fi connectivity, authentication, template settings, and virtual-pin datastreams |
 
-## 📁 Repository Structure
-
-```text
-smart-soil-fertility-monitoring-system/
-├── src/
-│   └── SmartSoilMonitoring.ino
-├── docs/
-│   ├── hardware-connections.md
-│   └── smart-soil-fertility-circuit-diagram.png
-├── images/
-│   ├── hardware-setup.jpg
-│   └── blynk-dashboard.png
-├── .gitignore
-└── README.md
-```
 
 Adjust the names and paths to match the files actually present in your repository.
 
